@@ -1,3 +1,8 @@
+html, body {
+    margin: 0;
+    padding: 0;
+  }
+
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: black;
@@ -16,6 +21,7 @@ body {
     font-size: 16px;
     color: aquamarine;
     text-align: center;
+    fon
 }
 
 .main h2 {
@@ -29,4 +35,25 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 21px;
     color: gray;
+}
+
+.main a p {
+    font-size: 16px;
+    color: aquamarine;
+    text-align: center;
+}
+
+.main #container {
+    display: inline-flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.footer p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21px;
+    color: gray;
+    text-align: right;
+    bottom: 0px;
+    margin-right: 10px;
 }
