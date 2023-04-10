@@ -42,10 +42,11 @@ body {
     text-align: center;
 }
 
-.main #container {
-    display: inline-flex;
-    flex-direction: column;
-    max-width: 100%;
+ .div #container {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle
+    
 }
 
 .footer p {
@@ -55,4 +56,5 @@ body {
     text-align: right;
     bottom: 0px;
     margin-right: 10px;
+    
 }
